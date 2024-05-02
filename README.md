@@ -6,6 +6,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 
 - [Overview](#overview)
 - [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
 - [Links](#links)
 - [My process](#my-process)
 - [Built with](#built-with)
@@ -21,9 +22,16 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 
+### Screenshot
+
+![Desktop(1440px)](./capture/capture-desktop.png)
+![Mobile(375px)](./capture/capture-mobile.png)
+
+
 ### Links
 
 - Solution URL: [Github](https://github.com/JuanMiranda1998/fylo-data-storage-frontend-mentor)
+- Live Site URL: [Github Pages](https://www.example.com)
 
 
 ## My process
