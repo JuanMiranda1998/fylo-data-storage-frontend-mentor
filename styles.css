@@ -1,0 +1,181 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+button{
+  border: 0;
+  text-decoration: none;
+  background: transparent;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+ul,li{
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  min-height: 100lvh;
+  font-family: 'Raleway';
+  color: #fff;
+  font-size: 14px;
+}
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100lvh;
+  background: #1d2c67;
+  background-image: url('./images/bg-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 95lvh;
+}
+.topCard{
+  width: 85%;
+  max-width: 500px;
+  padding: 2rem;
+  border-radius: 10px 6rem 10px 10px;
+  background-color: #1d2c67;
+  margin-bottom: 1rem;
+}
+.logo{
+  margin-bottom: 2rem;
+}
+.buttonContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.buttonContainer > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #0c122c;
+}
+.bottomCard{
+  width: 85%;
+  max-width: 500px;
+  padding: 1.5rem 1.5rem 3rem;
+  border-radius: 10px;
+  background-color: #1d2c67;
+  position: relative;
+}
+.usageText{
+  text-align: center;
+  font-size: 1rem;
+  color: #dddbff;
+  margin-bottom: 1rem;
+}
+.usageText span{
+  color: #fff;
+  font-weight: 700;
+}
+.progressContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.progressBar{
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  background-color: #0c122c;
+  border: 3px solid #0c122c;
+  margin-bottom: 10px;
+}
+.barSlider{
+  width: 70%;
+  height: 100%;
+  border-radius: 15px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  position: relative;
+}
+.barSlider::after{
+  content: '';
+  position: absolute;
+  right: 2px;
+  bottom: 30%;
+  transform: translateY(20%);
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.barValues{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-weight: 700;
+}
+.leftUsageBox{
+  width: 180px;
+  padding: 0.5rem 0.75rem;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  background-color: #fff;
+}
+.leftUsageText{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #848794;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.leftUsageText > span{
+  color: #0c122c;
+  font-size: 2.25rem;
+}
+
+.attribution { 
+  font-size: 0.75rem; 
+  text-align: center; 
+  color: #fff;
+}
+.attribution a { 
+  color: #ff4d97; 
+}
