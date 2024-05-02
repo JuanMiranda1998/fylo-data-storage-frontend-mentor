@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/JuanMiranda1998/fylo-data-storage-frontend-mentor)
-- Live Site URL: [Github Pages](https://www.example.com)
+- Live Site URL: [Github Pages](https://juanmiranda1998.github.io/fylo-data-storage-frontend-mentor/)
 
 
 ## My process
